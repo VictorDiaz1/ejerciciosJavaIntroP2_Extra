@@ -13,7 +13,7 @@ public class Ejercicio6 {
         int cont = 0;
         double suma = 0;
         double suma2 = 0;
-        System.out.println("Ingrese la altura");
+        System.out.println("Ingrese la altura, para finalizar presione 0");
         do {
             altura = sc.nextDouble();
             personas++;

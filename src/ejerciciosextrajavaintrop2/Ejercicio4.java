@@ -49,7 +49,7 @@ public class Ejercicio4 {
 //            default:
 //                rom = "numero incorrecto";
 //                break;
-        }if (num>=10||num<=0) {
+        }if (num>10||num<=0) {
             System.out.println("ha ingresado un numero incorrecto");
         } else {        
         System.out.println(num + " en numero romano es: " + rom);

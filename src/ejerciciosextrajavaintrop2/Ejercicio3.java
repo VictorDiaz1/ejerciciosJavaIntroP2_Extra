@@ -12,7 +12,9 @@ public class Ejercicio3 {
         String letra;
         System.out.println("Ingrese una letra:");
         letra = sc.nextLine();
-        if (letra.equals("a") || letra.equals("e") || letra.equals("i") || letra.equals("o") || letra.equals("u")) {
+        if (letra.toLowerCase().equals("a") || letra.toLowerCase().equals("e")
+                || letra.toLowerCase().equals("i") || letra.toLowerCase().equals("o")
+                || letra.toLowerCase().equals("u")) {
             System.out.println("Es una vocal");
         } else {
             System.out.println("no es una vocal");
